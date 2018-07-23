@@ -20,19 +20,21 @@
         <FrameLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"/>
+        <!-- para tener en cuenta el margen superior, hacer la ultima linea arriba de este comentario -->
 
 
-    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
 
-    <android.support.design.widget.NavigationView
-        android:id="@+id/navView"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header"
-        app:menu="@menu/menu_drawer"/>
+<android.support.design.widget.NavigationView
+    android:id="@+id/navView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/nav_header"
+    app:menu="@menu/menu_drawer"/>
 
 </android.support.v4.widget.DrawerLayout>
 
