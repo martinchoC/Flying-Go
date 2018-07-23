@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Flying Go</string>
+
+    <string name="user_name">Martin Castro</string>
+    <string name="user_email">martin.e.castro.88@gmail.com</string>
+
+    <string name="open_drawer">Navigation Drawer is open</string>
+    <string name="close_drawer">Navigation Drawer is close</string>
+
+    <string name="home_fragment_title">Home</string>
+    <string name="home_fragment_hello">Hello from Home</string>
+    <string name="arrivals_fragment_title">Arrivals</string>
+    <string name="arrivals_fragment_hello">Hello from Arrivals</string>
+    <string name="departures_fragment_title">Departures</string>
+    <string name="departures_fragment_hello">Hello from Departures</string>
+
+</resources>
